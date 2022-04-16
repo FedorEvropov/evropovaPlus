@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #11e57b;
+    background-color: aliceblue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.site-header {
+    background-color: #a8f5f1;
+    padding: 20px;
+    text-decoration: none;
+}
+.site_brand_logo img {
+    max-width: 250px;
+}
+.header-menu{
+    display: flex;
+}
+.about, .tours, .partners, .contacts, .auth-bth {
+    padding: 15px;
+}
+.auth-bth {
+    font-family: 'Raleway', sans—serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2da8d5;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 54px rgba(50, 255, 239, 1);
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
